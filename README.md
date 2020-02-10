@@ -1,9 +1,13 @@
 # mypipe
 
-You have to recode a small pipe-like program, working like this:
+Student : Ilès Benkoussa 4IABD
+
+To run this programm :
+- Build the executable with *cargo build* command
+- Go in mypipe/target/debug folder and type :
 
 ```shell
-$ mypipe --in fortune --out cowsay
+$ ./mypipe --in fortune --out cowsay
 ```
 
 ```
@@ -17,6 +21,3 @@ $ mypipe --in fortune --out cowsay
               (__)\       )\/\
                   ||----w |
                   ||     ||
-```
-
-You can use <https://clap.rs> to parse the command-line arguments, and also follow the guide <https://rust-lang-nursery.github.io/cli-wg/>
